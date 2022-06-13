@@ -30,7 +30,7 @@ WHERE CustomerId % 2 = 1
 UPDATE Users
 SET Company = CASE 
 	WHEN Email like '%gmail%' THEN 'Google'
-	WHEN Email like '%yahoo%' THEN 'Yahoo'
+	WHEN Email like '%yahoo%' THEN 'Yahoo!'
 	ELSE Company
 	END
 
